@@ -1,0 +1,296 @@
+/* 		CSS rese */
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	color:#fff;
+	font-family:"微软雅黑";
+	font-weight: 300;
+	line-height: 2;
+	position:relative;
+	width:100%;
+	height:100%;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+a {
+	text-decoration:none;
+	color:#fff;
+	outline:none;
+}
+/* 		顶部导航条 */
+.header-content{
+	width: 100%;
+	background: #333366;
+	overflow:hidden;
+	clear: both;
+	margin-top: 50px;
+	height: 600px;
+}
+
+.collapse .navbar-collapse{
+	padding: 0px;
+	float: none;
+	margin:0px;
+}
+.navbar-nav{
+	margin:0 auto;
+	text-align: center;
+	float: none;
+	padding: 0px;
+}
+.nav > li > a{
+	display:inline-block;
+	font-size: 18px;
+}
+.navbar-nav > li{
+	float: none;
+	display: inline;
+	padding: 10px;
+} 
+/* 头部介绍页面内容*/
+.picture{
+	width: 150px;
+	height: 200px;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.picture img{
+	width: 150px;
+	height: 200px;
+
+}
+.name{
+	width: 400px;
+	height: 120px;
+	overflow: hidden;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 2px solid #fff;
+}
+/* 头部介绍页面结束 */
+/* “关于我”页面开始 */
+.aboutMe{
+	width: 100%;
+	background: #00bdbd;
+	overflow: hidden;
+}
+.aboutMe-title{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.aboutMe-right{
+	margin-top: 30px;	
+}
+.aboutMe-img img{
+	width: 300px;
+	height: 300px;
+}
+.aboutMe-img{
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+	overflow: hidden;
+}
+/* “关于我”页面结束 */
+/* 技能介绍开始 */
+.skill{
+	width: 100%;
+	background: #eeeeee;
+	overflow: hidden;
+}
+.skill-header h2{
+	color: #000;
+	text-align: center;
+}
+.skill .container{
+	padding: 0;
+	margin-top: 10px;
+}
+.skillArea{
+	text-align: center;
+	padding: 0;
+	color: #000;
+}
+.circle-percent{
+	position: relative;
+}
+.circle-percent strong{
+	position: absolute;
+	left: 40%;
+	top: 50px;
+	color: #666666;
+	font-size: 50px;
+}
+/* 技能介绍结束 */
+/* 经历开始 */
+.experience{
+	width: 100%;
+	overflow: hidden;
+}
+.experience-header{
+	color: #FF00CC;
+	text-align: center;
+}
+.experience .container{
+	margin-top: 50px;
+}
+.experience-marginBottom{
+	margin-bottom: 50px;
+}
+
+.radius-div{
+	width: 150px;
+	height: 150px;
+	background-color: #ff675f;
+	border-radius:75px;
+	text-align: center;
+}
+ .radius-div p{
+	padding-bottom: 35px;
+	padding-top: 35px;
+}
+.experience-content{
+	width: 800px;
+	height: 150px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color: #eaeaea;
+	position: relative; 
+}
+.experience-content p{
+	margin-left: 10px;
+	font-size: 20px;
+	color: #000;
+}
+.experience-content-triangle{
+	width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #ccc;
+    border-bottom:10px solid transparent;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+}
+
+/* 经历结束 */
+/* 联系我开始 */
+.contact{
+	width: 100%;
+	background: url(F:Git/intro/images/map-bro.png) repeat-x 0 0;
+}
+.contact-header{
+	height: 200px;
+	color: #000;
+	text-align: center;
+	padding-top: 40px;
+	border-bottom: 3px solid #ccc;
+	float: none;
+	position:relative; 
+
+}
+.contact-content-line{
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	bottom: 0px;
+	background: url(F:map-bro.png) repeat-x 0 0;
+}
+.contact-content{
+	height: 500px;
+	width: 100%;
+	background-color: #474d5d; 
+}
+.contact-content-left{
+	margin-top: 50px;
+}
+.contact-content-left p{
+	line-height: 35px;
+}
+.contact-content-left p i{
+	padding-right: 15px;
+}
+.contact-content-right{
+	margin-top: 50px;
+}
+.contact-content-right .Name{
+	height: 50px;
+	width: 360px;
+	border:none;
+	background-color: #585f73;
+	margin-right: 35px;
+	margin-bottom: 20px;
+}
+.contact-content-right .Email{
+	height: 50px;
+	width: 360px;
+	border:none;
+	background-color: #585f73;
+	margin-bottom: 20px;
+}
+.contact-content-right textarea{
+	background-color: #585f73;
+	border:none;
+	height: 100px;
+}
+.submitBtn{
+	float: right;
+	padding:15px 30px;
+	background: #ff675f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:20px;
+}
+/* 联系我结束 */
+/* 底部版权开始 */
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color:#00bdbd; 
+	text-align: center;
+}
+.footer ul{
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:center;
+	list-style-type:none;
+}
+.footer ul li{
+	display:inline-block;
+	text-align:center;
+	background:#ffffff;
+	color:#00bdbd;
+	line-height:42px;
+	margin:0 6px;
+	width:42px;
+	height:42px;
+	-webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.footer ul li:hover{
+	background:#0a9f9f ;
+}
+.footer ul li:hover	a{
+	color:#fff;
+}
+
+.footer ul li a{
+	color:#00bdbd;
+	width:42px;
+	height:42px;
+}
+.footer ul li a i{
+	line-height:42px;
+}
+
+/* 底部版权结束 */
