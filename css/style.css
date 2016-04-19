@@ -26,7 +26,6 @@ a {
 	overflow:hidden;
 	clear: both;
 	margin-top: 50px;
-	height: 600px;
 }
 
 .collapse .navbar-collapse{
@@ -51,21 +50,23 @@ a {
 } 
 /* 头部介绍页面内容*/
 .picture{
-	width: 150px;
-	height: 200px;
+	max-width: 150px;
+	max-height: 200px;
 	margin-top: 10%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
 .picture img{
-	width: 150px;
-	height: 200px;
+	max-width: 150px;
+	max-height: 200px;
 
 }
 .name{
-	width: 400px;
-	height: 120px;
+	max-width: 400px;
+	max-height: 120px;
+	min-width: 200px;
+	min-height: 60px;
 	overflow: hidden;
 	margin-top: 50px;
 	margin-left: auto;
@@ -79,6 +80,7 @@ a {
 	width: 100%;
 	background: #00bdbd;
 	overflow: hidden;
+	max-height: 1000px;
 }
 .aboutMe-title{
 	margin-top: 50px;
@@ -104,6 +106,7 @@ a {
 	width: 100%;
 	background: #eeeeee;
 	overflow: hidden;
+	max-height: 2000px;
 }
 .skill-header h2{
 	color: #000;
@@ -133,6 +136,7 @@ a {
 .experience{
 	width: 100%;
 	overflow: hidden;
+	max-height: 2000px;
 }
 .experience-header{
 	color: #FF00CC;
@@ -157,8 +161,9 @@ a {
 	padding-top: 35px;
 }
 .experience-content{
-	width: 800px;
-	height: 150px;
+	min-width: 100px;
+	min-height: 150px;
+	max-height: 500px;
 	border-radius: 5px;
 	border: 1px solid #ccc;
 	background-color: #eaeaea;
@@ -188,6 +193,7 @@ a {
 }
 .contact-header{
 	height: 200px;
+	min-width: 100px;
 	color: #000;
 	text-align: center;
 	padding-top: 40px;
@@ -201,10 +207,11 @@ a {
 	height: 5px;
 	position: absolute;
 	bottom: 0px;
-	background: url(F:map-bro.png) repeat-x 0 0;
+	background: url(F:Git/intro/images/map-bro.png) repeat-x 0 0;
 }
 .contact-content{
-	height: 500px;
+
+	min-height:600px;
 	width: 100%;
 	background-color: #474d5d; 
 }
@@ -222,7 +229,7 @@ a {
 }
 .contact-content-right .Name{
 	height: 50px;
-	width: 360px;
+	max-width: 360px;
 	border:none;
 	background-color: #585f73;
 	margin-right: 35px;
@@ -230,7 +237,7 @@ a {
 }
 .contact-content-right .Email{
 	height: 50px;
-	width: 360px;
+	max-width: 360px;
 	border:none;
 	background-color: #585f73;
 	margin-bottom: 20px;
@@ -238,7 +245,7 @@ a {
 .contact-content-right textarea{
 	background-color: #585f73;
 	border:none;
-	height: 100px;
+	min-height: 100px;
 }
 .submitBtn{
 	float: right;

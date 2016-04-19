@@ -5,9 +5,9 @@ $(window).ready(function($) {
 	$(function(){
 		h=$(window).height();
 		$('.header-content').css("height",h+"px");
-		$('.aboutMe').css("height",h+"px");
-		$('.skill').css("height",h+"px");
-		$('.contact').css("height",h+"px");
+		$('.aboutMe').css("min-height",h+"px");
+		$('.skill').css("min-height",h+"px");
+		$('.contact').css("min-height",h+"px");
 })
 /*点击导航栏，顶部导航状态改变*/
 		$('.nav').find('li').click(function(){
