@@ -210,10 +210,19 @@ a {
 	background: url(F:Git/intro/images/map-bro.png) repeat-x 0 0;
 }
 .contact-content{
-
-	height:500px;
+	position: relative;
+	height: 500px;
 	width: 100%;
 	background-color: #474d5d; 
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
 }
 .contact-content-left{
 	margin-top: 50px;
@@ -228,7 +237,7 @@ a {
 	margin-top: 50px;
 }
 .contact-content-right .Name{
-	height: 50px;
+	min-height: 50px;
 	max-width: 360px;
 	border:none;
 	background-color: #585f73;
@@ -236,7 +245,7 @@ a {
 	margin-bottom: 20px;
 }
 .contact-content-right .Email{
-	height: 50px;
+	min-height: 50px;
 	max-width: 360px;
 	border:none;
 	background-color: #585f73;
@@ -245,17 +254,18 @@ a {
 .contact-content-right textarea{
 	background-color: #585f73;
 	border:none;
-	min-height: 100px;
+	height: 50px;
+	height: 100px!important;
 }
 .submitBtn{
 	float: right;
-	padding:15px 30px;
+	padding: 5px 10px;
+	margin-top: 5px;
 	background: #ff675f;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
     text-align: center;
-    margin-top:20px;
 }
 /* 联系我结束 */
 /* 底部版权开始 */
